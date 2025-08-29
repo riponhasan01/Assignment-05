@@ -34,3 +34,17 @@ for(let button of copyButtons){
   });
 }
  
+const callbtns = document.getElementsByClassName("call-btn");
+
+
+for (let callButton of callbtns){
+  callButton.addEventListener("click", function(){
+   
+    const titleTag =callButton.parentNode.parentNode.children;
+    // const helpLine =
+    
+  })}
+
+
+
+
